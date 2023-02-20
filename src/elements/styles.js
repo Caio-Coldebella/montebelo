@@ -11,17 +11,20 @@ const CONTENT = styled.div`
     background-color: lightcyan;
     & p {
         font-size: 20px;
+        word-break: break-word;
     }
     & h1 {
         font-size: 30px;
         font-weight: bold;
         margin-bottom: 50px;
+        word-break: break-word;
     }
 `;
 
 const LOGO = styled.img`
-    width: 500px;
-    height: 200px;
+    width: 80%;
+    max-width: 500px;
+    height: auto;
     margin: 50px 0 50px 0;
 `;
 
@@ -39,6 +42,7 @@ const LOGOSDIV = styled.div`
     align-items: center;
     justify-content: space-between;
     margin: 0 0 70px;
+    min-width: 250px;
     width: 40%;
     height: fit-content;
 `;
@@ -55,7 +59,8 @@ const ICON = styled.div`
 const PRODUCT = styled.div`
     display: flex;
     flex-direction: column;
-    width: 70%;
+    min-width: 70%;
+    width: fit-content;
     height: fit-content;
     margin: 0 0 50px 0;
     & h1 {
@@ -63,8 +68,9 @@ const PRODUCT = styled.div`
         font-weight: bold;
         margin-bottom: 30px;
     } & img {
-        height: 200px;
-        width: 400px;
+        width: 80%;
+        max-width: 400px;
+        height: auto;
     }
 `;
 
