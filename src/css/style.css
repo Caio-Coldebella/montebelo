@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Raleway', sans-serif;
 }
 ::placeholder{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Raleway', sans-serif;
 }

@@ -7,34 +7,39 @@ const CONTENT = styled.div`
     width: 100vw;
     min-height: 100vh;
     height: fit-content;
-    /*background-image: url(});*/
     background-color: #e4e5e7;
     & p {
+        -webkit-user-select: none;
         font-size: 20px;
         word-break: break-word;
     }
     & h1 {
+        -webkit-user-select: none;
         font-size: 30px;
         font-weight: bold;
         margin-bottom: 50px;
         word-break: break-word;
     }
     & h2 {
-        font-size: 30px;
+        -webkit-user-select: none;
+        font-size: 20px;
         font-weight: bold;
-        text-decoration: underline gray;
+        text-decoration: underline silver;
         word-break: break-word;
         margin: 30px 5px 20px 8%;
         align-self: flex-start;
+    }
+    & img {
+        -webkit-user-drag: none;
     }
 `;
 
 const TEXTDIV = styled.div`
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     width: 70%;
     height: fit-content;
+    word-break: break-all;
 `;
 
 const LOGOSDIV = styled.div`
@@ -172,7 +177,7 @@ const PRESENTDIV = styled.div`
 const MOBILETOP = styled.div`
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
     height: fit-content;
     padding: 0 10px 20px 10px;
@@ -181,6 +186,9 @@ const MOBILETOP = styled.div`
         display: flex;
         align-items: center;
         column-gap: 10px;
+    }
+    & p {
+        font-size: 16px;
     }
     @media (min-width: 1051px) {
         display: none;

@@ -1,4 +1,3 @@
-import { IoLocationSharp, IoLogoWhatsapp } from "react-icons/io5";
 import { sendmessage, openmaps } from "./redirectfunctions";
 import styles from "./styles";
 import Topbar from "./Topbar";

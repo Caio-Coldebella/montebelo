@@ -4,7 +4,7 @@ import { IoLocationSharp, IoLogoWhatsapp, IoAlarm, IoMail, IoCall } from "react-
 export default function Topdiv() {
     return (
     <styles.WRAPDIV>
-        <styles.LOGO src={logo} alt="logo" onClick={null}/>
+        <styles.LOGO src={logo} alt="logo"/>
         <styles.TOPDIVBOX>
             <IoLocationSharp size={40}/>
             <p>Estrada 13 de setembro, km 4,5</p>
@@ -24,8 +24,7 @@ export default function Topdiv() {
             <span><IoLogoWhatsapp size={22}/><p>• (69) 99984-5332</p></span>
             <span><IoCall size={22}/><p>• (69) 3026-3940</p></span>
             <span><IoMail size={22}/><p>ceramicamontebello@hotmail.com</p></span>
-            <span><IoAlarm size={22}/><p>Seg à Sex 7h30 - 12h e 13h30 - 18h</p></span>
-            <span><p>Sáb 7h30 - 12h</p></span>
+            <span><IoAlarm size={22}/><p>Seg à Sex 7h30 - 12h e 13h30 - 18h <br/>Sáb 7h30 - 12h</p></span>
         </styles.MOBILETOP>
     </styles.WRAPDIV>
     );

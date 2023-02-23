@@ -18,8 +18,8 @@ export default function Galeria() {
     return (
         <styles.CONTENT>
             <Topbar/>
-            {arraygalerie.map((el,index) => {return <><h2>{el.name}</h2><styles.GALLERY>
-                {el.arrphotos.map((el2, index2) => {return <styles.GALERIEPHOTOS src={el2} alt={index2}/>})}
+            {arraygalerie.map((el,index) => {return <><h2>{el.name}</h2><styles.GALLERY key={index}>
+                {el.arrphotos.map((el2, index2) => {return <styles.GALERIEPHOTOS key={index2} src={el2} alt={`media_${index}_${index2}`}/>})}
             </styles.GALLERY></>})}
         </styles.CONTENT>
     );

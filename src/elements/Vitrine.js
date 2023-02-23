@@ -6,7 +6,7 @@ import oitofurospadrao from "../assets/tijolos8furos/8furospadraooficial.jpeg";
 import oitofuros24 from "../assets/tijolos8furos/8furos24oficial.jpeg";
 import macicoreto from "../assets/tijolosmacico/macicoreto.jpeg";
 import macicocurvo from "../assets/tijolosmacico/macicocurvo.jpeg";
-import lajota from "../assets/lajota/lajotah7.jpeg";
+import lajota from "../assets/lajota/lajotah7edit.jpeg";
 
 class Product {
     constructor(name, desc, image) {
@@ -32,7 +32,7 @@ export default function Vitrine() {
         <styles.GALLERY>
         {arrayproducts.map((el,index) => 
             {return <styles.PRODUCT key={index}>
-                <img src={el.image} alt={index}/>
+                <img src={el.image} alt={`media_${index}`}/>
                 <div>
                 <h1>{el.name}</h1>
                 <p>{el.desc}</p>
