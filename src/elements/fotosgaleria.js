@@ -23,6 +23,9 @@ import parede1 from "../assets/galeria/paredesdecorativas/parede1.jpeg";
 import parede2 from "../assets/galeria/paredesdecorativas/parede2.jpeg";
 import parede3 from "../assets/galeria/paredesdecorativas/parede3.jpeg";
 
+import automatismo1 from "../assets/galeria/producao/automatismo1.gif";
+import automatismo2 from "../assets/galeria/producao/automatismo2.gif";
+
 const churasqueiras = [churasqueira1, churasqueira2, churasqueira3, churasqueira4,
     churasqueira5, churasqueira6, churasqueira7, churasqueira8, churasqueira9];
 
@@ -32,11 +35,14 @@ const empresa = [empresa1, empresa2, empresa3];
 
 const parede = [parede1, parede2, parede3];
 
+const automatismo = [automatismo1, automatismo2];
+
 const foto = {
     churasqueiras,
     estoques,
     empresa,
-    parede
+    parede,
+    automatismo
 };
 
 export default foto;

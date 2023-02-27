@@ -12,7 +12,9 @@ class Galery {
 const arraygalerie = [new Galery("• Estoque", foto.estoques),
  new Galery("• Paredes Decorativas", foto.parede),
  new Galery("• Churrasqueiras com Tijolos Maciços", foto.churasqueiras),
- new Galery("• Nossa Empresa", foto.empresa)];
+ new Galery("• Nossa Empresa", foto.empresa),
+ new Galery("• Produção", foto.automatismo)
+];
 
 export default function Galeria() {
     return (

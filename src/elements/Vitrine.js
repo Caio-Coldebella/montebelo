@@ -5,7 +5,7 @@ import bandinha from "../assets/tijolos6furos/oficial.jpeg";
 import oitofurospadrao from "../assets/tijolos8furos/8furospadraooficial.jpeg";
 import oitofuros24 from "../assets/tijolos8furos/8furos24oficial.jpeg";
 import macicoreto from "../assets/tijolosmacico/macicoreto.jpeg";
-import macicocurvo from "../assets/tijolosmacico/macicocurvo.jpeg";
+import macicocurvo from "../assets/tijolosmacico/macicocurvoupdate.jpeg";
 import lajota from "../assets/lajota/lajotah7edit.jpeg";
 
 class Product {
